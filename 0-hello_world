@@ -1,2 +1,2 @@
-#?/bin/bash
-pribtf "%b\n" "Hello, World"
+#!/bin/bash
+printf "%b\n" "Hello, World"
