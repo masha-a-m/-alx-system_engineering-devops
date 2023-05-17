@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this is a script
+
+#it shows all active IPv4s
+
+hostname -ii ; hostname -I | cut -d' ' -f1
+
+
+# new task
