@@ -5,4 +5,4 @@
 
 # task 100
 
-nc -l hosting of local port  98
+nc -l host 98
