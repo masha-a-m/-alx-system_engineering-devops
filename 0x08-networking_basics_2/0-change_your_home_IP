@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
-# this is a script for the networking task
 
+# task 1 of the 0x08 bash script
 
-# task 0x08 on configuration of ubuuntu
+#this is the new task
 
-#facebook, local host
+cp /etc/hosts ~/hosts.new #copy etc hosts to hosts new
 
+echo '2i8.8.8.8 facebook.com' ~/hosts.new #reflect 8.8.8.8 to hosts new facebook
 
-cp /etc/hosts ~/hosts.new
-
-echo zyx /127.0.0.1/127.0.0.2 /zyx  ~/hosts.new
-echo 'z8.8.8.8  z facebook.com ~/hosts.new
+echo 's/127.0.0.1/127.0.0.2/' ~/hosts.new #127.0.0 to hosts new
 
 cp -f ~/hosts.new /etc/hosts
