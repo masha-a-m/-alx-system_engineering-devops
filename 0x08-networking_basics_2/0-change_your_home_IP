@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# this is a script for the networking task
+
+
+# task 0x08 on configuration of ubuuntu
+
+#facebook, local host
+
+
+cp /etc/hosts ~/hosts.new
+
+echo zyx /127.0.0.1/127.0.0.2 /zyx  ~/hosts.new
+echo 'z8.8.8.8  z facebook.com ~/hosts.new
+
+cp -f ~/hosts.new /etc/hosts
