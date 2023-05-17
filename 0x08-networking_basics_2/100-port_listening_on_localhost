@@ -2,5 +2,7 @@
 
 # new script on local port in which host 98
 
+
 # task 100
+
 nc -l hosting of local port  98
