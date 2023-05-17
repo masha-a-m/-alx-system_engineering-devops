@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# thia is the fifth task on the project
+
+
+#it is about IP adress 5  is the host 
+
+#if the network. how it works
+
+
+if [ "$3" -lt "" ]
+then
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+    ping "$3" -c 5
+
+
+    fi
