@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# this shows the ports
+
+
+ this is the fourth task in the networking basis
+
+
+
+
+
+
+netstat -l --program
