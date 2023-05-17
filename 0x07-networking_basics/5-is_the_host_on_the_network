@@ -8,11 +8,11 @@
 #if the network. how it works
 
 
-if [ "$3" -lt "" ]
+if [ "$" -lt "1" ]
 then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
-    ping "$3" -c 5
+    ping "$" -c 5
 
 
     fi
