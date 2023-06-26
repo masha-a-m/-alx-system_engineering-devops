@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+# apache in cont.
+
+
+echo "ServerName localhost" >> /etc/apache2.conf
+
+#task 0 debugging
+
+service apache2 start
