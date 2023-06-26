@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# task 1 RSA key
+
+ssh-keygen -t rsa -b -f 4096 -N betty
