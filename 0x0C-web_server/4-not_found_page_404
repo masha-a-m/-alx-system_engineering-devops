@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# task 4 web server
+
+apt-get -y update
+
+apt-get -y install nginx
+
+echo "Hello World!" | sudo tee /var/www/html/index.html > /dev/nulli
