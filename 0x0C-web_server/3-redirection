@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# task 3
+
+
+sudo apt-get -y update
+
+sudo apt-get -y install nginx
+
+#Configure your Nginx server so that /redirect_me is redirecting to another page.
+
+sudo ufw allow 'Nginx HTTP'
+
+echo "Hello World" | sudo tee /var/www/html/index
+
+sudo sed -i '/listen 80 default_server/a rewrite ^/redirect_me 
