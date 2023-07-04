@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#debugging skills, find out what’s keeping your Ubuntu container’s Nginx installation from listening on port 80.
+
+cd /etc/nginx/sites-enabled/ || exit; rm default; 
+
+#task web stack debugging 1
+#cok  guzel can ask 
+ln -s /etc/nginx/sites-available/default default;
