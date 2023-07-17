@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# e “superuser”. It can do anything it wants, that’s a good and bad thing. A good practice is that one should never be logged in the root use#r, as if you fat finger a command and for example run rm -rf /, there is no comeback. That’s why it is preferable to run as a privileged user#, meaning that the us
+sudo -u "$1" whoami
