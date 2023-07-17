@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Superuser that can do anything on a Unix machine, the top administrator. Security wise, you must do everything that you can to prevent an a
+#nginx must be running as nginx user
+sed -i "s/#user www-data/user nginx/" /etc/nginx/nginx.conf
+#security issue that allows them to break-in to your server, the impact is limited by the permissions of the nginx user.
+sed -i "s/80/8080/g" /etc/nginx/sites-available/default
+#task 1 web stack
+chmod 644 /etc/nginx/nginx.conf
+
+#alx taask 
+pkill apache2
+sudo -u nginx service nginx start
